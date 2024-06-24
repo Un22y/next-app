@@ -16,7 +16,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { formatDistance } from "date-fns";
-import { StatsCard } from "@/app/(form-builder)/form-builder/page";
+import { StatsCard } from "@/app/[locale]/(routes)/(form-builder)/form-builder/page";
 
 export default async function DetailsPage({
   params,
